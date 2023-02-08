@@ -1,0 +1,57 @@
+.tsui-input-field {
+  position: relative;
+  box-sizing: border-box;
+  font-size: 14px;
+  width: 100%;
+
+  input{
+    padding: 4px 8px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 36px;
+  }
+
+  &.trailing-icon {
+
+    input {
+      padding-right: 48px;
+    }
+
+    > div {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      display: none;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-right: 8px;
+
+      img {
+        position: relative;
+        height: 28px;
+        width: 28px;
+        padding: 4px;
+        overflow: visible;
+        box-sizing: border-box;
+        margin-left: 4px;
+        border-radius: 50%;
+
+        &:hover {
+          background-color: #e0e0e0;
+        }
+
+        &:active {
+          top: 1px;
+        }
+      }
+    }
+
+    &:hover {
+      > div {
+        display: flex;
+      }
+    }
+  }
+}
