@@ -1,0 +1,1 @@
+.tsui-popover{position:relative}.tsui-popover .contents-wrapper{position:absolute;transition:none;z-index:2;display:block}.tsui-popover .contents-wrapper .contents{background:var(--tsui-app-background-color);box-shadow:rgba(0,0,0,0.16) 0 1px 4px;padding-top:0;opacity:1;transform:scale(1);display:block}.tsui-popover .contents-wrapper .contents .contents-inner{overflow:auto}

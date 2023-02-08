@@ -1,0 +1,17 @@
+{
+  "name": "@hanmotec/tsui-themes",
+  "version": "0.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss:all": "node-sass src -o lib --output-style compressed",
+    "scss:prod": "node-sass src/tsui-themes.scss -o lib --output-style compressed",
+    "scss:dev": "node-sass  src/tsui-themes.scss -o lib --output-style expanded",
+    "publish:public": "cp ./package.json ./lib && cd ./lib &&  npm publish --access public"
+  },
+  "author": "Henry Feng",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
