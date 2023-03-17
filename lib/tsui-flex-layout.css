@@ -1,1 +1,0 @@
-.tsui-flex-container{position:relative;display:flex;overflow:auto;width:100%;margin:0;padding:0}.tsui-flex-container.vertical{flex-direction:column}.tsui-flex-container.horizontal{flex-direction:row}.tsui-flex-container .flex-fixed{flex-shrink:0;flex-grow:0}.tsui-flex-container .flex-fulfill{flex-shrink:1;flex-grow:1}
